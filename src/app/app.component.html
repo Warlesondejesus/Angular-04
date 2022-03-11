@@ -1,0 +1,41 @@
+<main>
+  <div class="titulo">
+    <h1>Our Pricing</h1>
+  </div>
+  <div class="toggle">
+    <p>Annually</p>
+    <label class="switch">
+      <input type="checkbox">
+      <span class="slider round"></span>
+    </label>
+    <p>Monthly</p>
+  </div>
+  <div class="cards">
+    <app-card 
+      titulo="Basic" 
+      p1="19.99" 
+      p2="500 GB Storage" 
+      p3="2 Users Allowed" 
+      p4="Send Up to 3GB" 
+      (btnClickEvent)="cRealizada()"
+      ></app-card>
+    <app-card 
+      titulo="Professional" 
+      p1="24.99" 
+      p2="1 TB Storage" 
+      p3="5 Users Allowed" 
+      p4="Send Up to 10GB"
+      [id]="'card_mid'" 
+      (btnClickEvent)="cRealizada()"
+      ></app-card>
+    <app-card 
+      titulo="Master" 
+      p1="39.99" 
+      p2="2 TB Storage" 
+      p3="10 Users Allowed" 
+      p4="Send Up to 20GB"
+      [id]="'card_right'" 
+      (btnClickEvent)="cRealizada()"
+      ></app-card>
+  </div>
+</main>

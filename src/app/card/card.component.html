@@ -1,0 +1,15 @@
+<mat-card class="card" id="{{ id }}">
+    <mat-card-title class="title">{{ titulo }}</mat-card-title>
+    <div class="preco">
+        <span>$</span>
+        <p class="p1">{{ p1 }}</p>  
+    </div>
+      
+    <p class="p_padrao">{{ p2 }}</p>
+    <p class="p_padrao">{{ p3 }}</p>
+    <p class="p_padrao">{{ p4 }}</p>
+    <button mat-stroked-button color="primary" (click)="emitirEvento()">LEARN MORE</button>
+</mat-card>
+ 
+<!-- entre chaves temos as {{interpolações}} -->
+
