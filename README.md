@@ -1,4 +1,4 @@
-# Exercicio Angular 04
+# Exercício Angular 04
 
 Criem os 3 cards da imagem abaixo (Façam somente a estilização do card, ignorem todo o resto). 
 Inforem o conteúdo dos card (título, preço, conteúdo e cor do card) utilizando o @Input. 
